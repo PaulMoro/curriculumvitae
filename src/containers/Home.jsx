@@ -14,7 +14,7 @@ import Certificates from '../components/Certificates';
 import useGetData from '../hooks/useGetData';
 
 
-const App = () => {
+const Home = () => {
 
   const data = useGetData();
   console.log(data);
@@ -31,4 +31,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
